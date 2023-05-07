@@ -76,14 +76,53 @@ p{
     margin: 30px auto;
 }
 .navbar_text{
-    
+   
     display: flex;
-    gap: 60px;
+    gap: 50px;
     h1{
-        width: 630px;
-        font-size: 40px;
-        height: 80px;
+        margin-left: 100px;
+    }
+   p{
+    margin-top: 70px;
+    width: 350px;
+    font-size: 17px;
+    margin-right: 150px;
+   }
+}
+    
+}
+section{
+    width: 100%;
+    .boxes{
+        margin-top: 30px;
+        margin-left: 200px;
+        display: flex;
+        gap: 40px;
+        .box{
+            position: relative;
+            width: 327px;
+            height: 298px;
+            border: 1px solid #E8E7EE;
+            img{
+                position: absolute;
+                top: 41px;
+                left: 127px;
+            }
+            h4{
+                position: absolute;
+                top: 145px;
+                left: 120px;
+                font-size: 23px;
+            }
+            p{
+                position: absolute;
+                top: 187px;
+                left: 45px;
+                text-align: center;
+            }
+        }
     }
 }
-}
+
+
 
