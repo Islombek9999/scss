@@ -118,4 +118,49 @@ section .boxes .box p {
   top: 187px;
   left: 45px;
   text-align: center;
+}
+section button {
+  width: 1060px;
+  height: 56px;
+  background-color: #F6F6F9;
+  cursor: pointer;
+  border: none;
+  margin-top: 32px;
+  margin-left: 200px;
+  position: relative;
+}
+section button img {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+}
+
+.section_two {
+  width: 100%;
+}
+.section_two ul {
+  list-style: none;
+}
+.section_two ul li {
+  margin-top: 160px;
+  margin-left: 630px;
+}
+.section_two ul li a {
+  text-decoration: none;
+  color: #454C5F;
+}
+.section_two h2 {
+  margin-top: 6px;
+  margin-left: 600px;
+  font-size: 44px;
+}
+.section_two .section_two__images {
+  margin-top: 110px;
+  margin-left: 130px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 140px;
+}
+.section_two .section_two__images .img_one {
+  margin-left: 400px;
 }/*# sourceMappingURL=style.css.map */
