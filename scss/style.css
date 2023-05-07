@@ -163,4 +163,41 @@ section button img {
 }
 .section_two .section_two__images .img_one {
   margin-left: 400px;
+}
+
+footer {
+  margin-left: 160px;
+  margin-top: 200px;
+  background-color: #2A514C;
+  width: 1120px;
+  height: 514px;
+}
+footer .footer_logo {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer_logo p {
+  margin-top: 16px;
+  margin-left: 80px;
+  color: white;
+}
+footer .footer_logo .footer_logo__img {
+  margin-top: 8px;
+}
+footer .footer_link {
+  display: flex;
+  gap: 240px;
+}
+footer .footer_link .link {
+  list-style: none;
+}
+footer .footer_link .link li {
+  margin-top: 25px;
+}
+footer .footer_link .link li a {
+  text-decoration: none;
+  color: white;
+}
+footer p {
+  color: white;
 }/*# sourceMappingURL=style.css.map */
